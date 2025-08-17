@@ -1,6 +1,6 @@
 
 -- Create the database for the online bookstore
-CREATE DATABASE alx_book_store;
+CREATE DATABASE IF NOT EXISTS alx_book_store;
 
 -- Select the newly created database for use
 USE alx_book_store;
