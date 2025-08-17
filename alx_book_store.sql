@@ -1,5 +1,3 @@
--- Drop the database if it already exists to start with a clean slate
-DROP DATABASE IF EXISTS alx_book_store;
 
 -- Create the database for the online bookstore
 CREATE DATABASE alx_book_store;
