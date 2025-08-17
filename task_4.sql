@@ -7,8 +7,9 @@ SELECT
     price DOUBLE ,
     publication_date  
 FROM INFORMATION_SCHEMA.COLUMNS
-WHERE TABLE_SCHEMA = alx_book_store
+WHERE TABLE_SCHEMA = 'alx_book_store'
     AND TABLE_NAME = 'Books';
     
+
 
 
