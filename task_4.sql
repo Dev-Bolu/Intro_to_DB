@@ -5,4 +5,8 @@ SELECT
     title ,
     author_id ,
     price DOUBLE ,
-    publication_date  FROM Books;
+    publication_date  
+FROM INFORMATION_SCHEMA.COLUMNS
+WHERE TABLE_SCHEMA = DATABASE()
+    AND TABLE_NAME = 'Books';
+    B
